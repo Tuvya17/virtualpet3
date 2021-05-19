@@ -3,7 +3,7 @@ class Food {
       this.foodStock = 0
       this.lastFed = 0
       this.gameState = " "
-      this.image = loadImage("Milk.png");
+      this.image = loadImage("milk.png");
    }
    getFoodStock() {
       var foodStockref = database.ref("food");
